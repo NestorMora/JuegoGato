@@ -3,14 +3,14 @@ package gato;
 
 public class Jugador {
     boolean turno;
-    String Signo;
+    int Signo;
 
-    public Jugador(boolean turno, String Signo) {
+    public Jugador(boolean turno, int Signo) {
         this.turno = turno;
         this.Signo = Signo;
     }
 
-    public boolean isTurno() {
+    public boolean getTurno() {
         return turno;
     }
 
@@ -18,11 +18,11 @@ public class Jugador {
         this.turno = turno;
     }
 
-    public String getSigno() {
+    public int getSigno() {
         return Signo;
     }
 
-    public void setSigno(String Signo) {
+    public void setSigno(int Signo) {
         this.Signo = Signo;
     }
 
